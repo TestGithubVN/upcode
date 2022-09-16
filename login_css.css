@@ -1,0 +1,75 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	background: url('./beautiful.jpg') no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	font-family: sans-serif;
+}
+#headpage
+{
+	text-transform: uppercase;
+	color: white;
+	font-weight: 300px;
+	font-size: 30px;
+
+}
+.box
+{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	background-color: #191919;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+}
+#fix
+{
+	border: 2px solid #3498bd;
+	margin: 20px auto;
+	display: block;
+	padding: 14px 10px;
+	background: none;
+	border-radius: 24px;
+	text-align: center;
+	color: white;
+	transition: 0.25s;
+	width: 200px;
+}
+#fix:focus
+{
+	border: 2px solid #2ecc71;
+	border-radius: 10px 10px 30px 30px;
+	width: 280px;
+}
+#submit
+{
+	border: 2px solid #2ecc71;
+	margin: 20px auto;
+	display: block;
+	padding: 14px 40px;
+	background: none;
+	border-radius: 24px;
+	text-align: center;
+	color: white;
+	transition: 0.25s;
+}
+#submit:hover{
+	background-color: #2ecc71;
+}
+a:visited
+{
+	color: #2ecc71;
+	text-align: right;
+}
+a:active
+{
+	color: red;
+}
+a:visited
+{
+	color: #2ecc71
+}
